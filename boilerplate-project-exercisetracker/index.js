@@ -269,7 +269,7 @@ app.get('/api/users/:_id/logs', async function(req, res) {
 })
 
 // database
-MONGO_URI = `mongodb+srv://fix:fix123@cluster0.nqrecbp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
+MONGO_URI = `mongodb+srv://midb:midb@cluster0.nqrecbp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
 
 const start = async () => {
